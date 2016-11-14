@@ -41,7 +41,8 @@ int main(int argc, char** argv) {
 
   //Read values from ROS or set to default value
   nh.param("imuRate", imu_rate, IMU_FREQUENCY);
-  nh.param("camRate", cam_rate, CAMERA_FREQUENCY);
+  nh.param("camRate", cam_rate, CAMERA_FREQUENCY); // 20
+  //nh.param("camRate", cam_rate, 5);
 
   visensor::ViSensor vi_sensor(nh);
   vi_sensor.startSensors(cam_rate, imu_rate);

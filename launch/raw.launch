@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<launch>
+     <node  name="visensor_node" pkg="visensor_node" type="visensor_node" clear_params="true" output="screen" />
+</launch>

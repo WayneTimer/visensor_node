@@ -17,10 +17,10 @@ gen.add("cam0_global_analog_gain_attenuation",       bool_t,    0,    "gain atte
 gen.add("digital_gain",       int_t,    0,    "digital gain", 4,     1, 15)
 
 
-gen.add("cam0_aec_enable",       bool_t,    0,    "automatic exposure control", False)
+gen.add("cam0_aec_enable",       bool_t,    0,    "automatic exposure control", True)
 gen.add("cam0_min_coarse_shutter_width",       int_t,    0,    "min shutter width", 2,     2, 32765)
 gen.add("cam0_max_coarse_shutter_width",       int_t,    0,    "max shutter width", 500,     2, 32765)
-gen.add("cam0_coarse_shutter_width",       int_t,    0,    "shutter", 296,     2, 32765)
+gen.add("cam0_coarse_shutter_width",       int_t,    0,    "shutter", 480,     2, 32765)
 gen.add("cam0_fine_shutter_width",       int_t,    0,    "shutter", 0,     0, 1774)
 
 gen.add("cam0_adc_mode",       int_t,    0,    "ADC Mode", 2,2,3)
@@ -38,10 +38,10 @@ gen.add("cam1_max_analog_gain",       int_t,    0,    "max analog gain", 64,    
 gen.add("cam1_global_analog_gain",       int_t,    0,    "analog gain", 16,     16, 64)
 gen.add("cam1_global_analog_gain_attenuation",       bool_t,    0,    "gain attenuation", False)
 
-gen.add("cam1_aec_enable",       bool_t,    0,    "automatic exposure control", False)
+gen.add("cam1_aec_enable",       bool_t,    0,    "automatic exposure control", True)
 gen.add("cam1_min_coarse_shutter_width",       int_t,    0,    "min shutter width", 2,     2, 32765)
 gen.add("cam1_max_coarse_shutter_width",       int_t,    0,    "max shutter width", 500,     2, 32765)
-gen.add("cam1_coarse_shutter_width",       int_t,    0,    "shutter", 296,     2, 32765)
+gen.add("cam1_coarse_shutter_width",       int_t,    0,    "shutter", 480,     2, 32765)
 
 gen.add("cam1_adc_mode",       int_t,    0,    "ADC Mode", 2,2,3)
 gen.add("cam1_vref_adc_voltage_level",       int_t,    0,    "Vref ADC Voltage level", 4,0,7)
